@@ -1,0 +1,6 @@
+ id_evento |            momento            | usuario_sesion |   aplicacion   | operacion | id_cliente 
+-----------+-------------------------------+----------------+----------------+-----------+------------
+         2 | 2026-11-18 03:08:05.723494+00 | app_ventas     | app-ventas-web | UPDATE    |          1
+         1 | 2026-11-18 03:08:05.680109+00 | app_ventas     | app-ventas-web | UPDATE    |          1
+(2 rows)
+

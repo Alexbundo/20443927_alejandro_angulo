@@ -1,0 +1,8 @@
+pos,columna,tipo,longitud,acepta_nulos,valor_por_defecto,descripcion
+1,id,bigint,,NO,,"Identificador interno del cliente. Generado por el sistema."
+2,nombre,character varying,120,NO,,"Nombre completo. Dato personal identificador directo."
+3,correo,character varying,120,NO,,"Correo de contacto. Dato personal. Uso: notificaciones al cliente."
+4,rfc,character varying,13,YES,,"RFC del cliente. Dato personal. Uso: facturación. Cambios auditados en auditoria.cambios_clientes."
+5,telefono,character varying,15,YES,,"Teléfono de contacto. Dato personal. Uso: comunicación y seguimiento al cliente."
+6,ciudad,character varying,60,YES,,"Ciudad de residencia del cliente. Dato personal. Uso: analítica agregada y logística."
+7,segmento,character varying,20,YES,,"Segmento comercial asignado al cliente. Dato de negocio. Uso: analítica y estrategia comercial."
